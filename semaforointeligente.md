@@ -140,4 +140,4 @@ long esquerdo(int trigger, int echo){
 
 ## Imagem de montagem do circuito
 
-![semaforo inteligente](semaforointeligente.png)
+
