@@ -12,12 +12,12 @@
 
 ## Materiais utilizados
   - 1 arduino uno
-  - 4 LEDs vermelhos
-  - 2 LEDs amarelos
-  - 4 LEDs verdes
+  - 4 LEDs vermelhos 3.3v
+  - 2 LEDs amarelos 3.3v
+  - 4 LEDs verdes 3.3v
   - 1 sensor de distância
   - 10 resistores de 1K Ohm
-  - 
+  - 1 protoboard 400 pontos
 
 ## Explicação do código
 
