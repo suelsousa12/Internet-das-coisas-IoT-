@@ -62,3 +62,4 @@ void loop()
 
 ## Imagem de montagem do circuito
 
+![|Tela LCD com sensor de distancia](tela_LCD_com_sensor_de_distancia.png)
