@@ -1,13 +1,13 @@
 # Temperatura de ambiente
 
 ## Introdução
-
+  O projeto consiste na medição de temperatura através do sensor e impressão do valor da temperatura na tela LCD 16 x 2
 
 ## Materiais utilizados
 - 1 Arduino uno
 - 1 Protoboard 400 pontos
 - 1 Tela LCD 16 x 2
-- 1 Resistor de 1K Ohm
+- 1 Sensor de temperatura
 
 ## Explicação do código
 
@@ -55,3 +55,5 @@ void loop()
 
 
 ## Imagem de montagem do circuito
+
+![|Temperatura de ambiente](temperatura_de_ambiente.png)
