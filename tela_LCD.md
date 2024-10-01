@@ -7,6 +7,7 @@
 - 1 Arduino uno
 - 1 Protoboard 400 pontos
 - 1 Tela LCD 16 x 2
+- 1 Resistor de 1K Ohm
 
 ## Explicação do código
 
