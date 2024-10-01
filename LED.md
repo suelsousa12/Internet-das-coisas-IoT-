@@ -1,9 +1,13 @@
 # LED
 
-## Introdução
+# Introdução
+  O projeto consiste em ligar e desligar um LED azul em determinados intervalos de tempo.
 
 ## Materiais utilizados
-
+- 1 Arduino uno
+- 1 Protoboard 400 pontos
+- 1 LED vermelho 3.3v
+- 1 resistor de 1K Ohm
 
 ## Explicação do código
 
