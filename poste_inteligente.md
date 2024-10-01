@@ -1,7 +1,7 @@
 # Poste inteligente
 
 ## Introdução
- O projeto consiste num poste que tem a função automatizada a partir de um fotoresistor que detectar a falta de lunminosidade e dá o comando para a placa arduino acender o LED azul
+ O projeto consiste num poste que tem a função automatizada a partir de um fotoresistor que detecta a falta de lunminosidade e dá o comando para a placa arduino acender o LED azul, tornando assim o sistma do poste autosufuciente desde que energizado.
 
 ## Materiais utilizados
 1 Arduino uno
