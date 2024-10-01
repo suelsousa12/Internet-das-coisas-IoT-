@@ -50,3 +50,5 @@ void loop()
 }
 
 ## Imagem de montagem do circuito
+
+![|LED de semáforo](LED_de_semaforo.png)
