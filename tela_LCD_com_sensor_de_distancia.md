@@ -1,4 +1,4 @@
-# Tela LCD com sensor de ditância
+# Tela LCD com sensor de distância
 
 ## Introdução
   Este projeto consiste em avisar através de uma mensagem "Mantenha distância" que é mostrada no LCD através de uma detecção de proximidade do sensor no sistema. 
