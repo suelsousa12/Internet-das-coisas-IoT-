@@ -37,3 +37,5 @@ void loop()
 }
 
 ## Imagem de montagem do circuito
+
+![|Tela LCD](tela_LCD.png)
