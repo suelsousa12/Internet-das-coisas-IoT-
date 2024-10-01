@@ -1,13 +1,12 @@
 # Tela LCD
 
 ## Introdução
-
+  O projeto consiste na impressão das frases "Ola mundo" e "Bom dia" na tela LCD 16 x 2.
 
 ## Materiais utilizados
 - 1 Arduino uno
 - 1 Protoboard 400 pontos
-- 1 Tela LCD 16 x2
-- 1 Sensor de distância ultrassônico
+- 1 Tela LCD 16 x 2
 
 ## Explicação do código
 
