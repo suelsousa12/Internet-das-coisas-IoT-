@@ -53,3 +53,4 @@ void loop()
 
 ## Imagem de montagem do circuito
 
+  ![Poste inteligente](posteinteligente.png)
