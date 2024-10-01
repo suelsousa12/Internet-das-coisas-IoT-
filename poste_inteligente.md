@@ -4,11 +4,11 @@
  O projeto consiste num poste que tem a função automatizada a partir de um fotoresistor que detecta a falta de lunminosidade e dá o comando para a placa arduino acender o LED azul, tornando assim o sistma do poste autosufuciente desde que energizado.
 
 ## Materiais utilizados
-1 Arduino uno
-1 Protoboard 400 pontos
-1 LED azul 3.3v
-1 Fotoresistor 
-2 resistores de 1K Ohm
+- 1 Arduino uno
+- 1 Protoboard 400 pontos
+- 1 LED azul 3.3v
+- 1 Fotoresistor 
+- 2 resistores de 1K Ohm
 
 ## Explicação do código
 
