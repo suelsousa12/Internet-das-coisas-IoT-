@@ -9,7 +9,6 @@
 - 1 LED vermelho 3.3v
 - 1 LED amarelo 3.3v
 - 1 LED verde 3.3v
-- 1 Fotoresistor
 - 3 resistores de 1K Ohm
 
 ## Explicação do código
