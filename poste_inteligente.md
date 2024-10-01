@@ -1,10 +1,14 @@
 # Poste inteligente
 
 ## Introdução
-
+ O projeto consiste num poste que tem a função automatizada a partir de um fotoresistor que detectar a falta de lunminosidade e dá o comando para a placa arduino acender o LED azul
 
 ## Materiais utilizados
-
+1 Arduino uno
+1 Protoboard 400 pontos
+1 LED azul 3.3v
+1 Fotoresistor 
+2 resistores de 1K Ohm
 
 ## Explicação do código
 
