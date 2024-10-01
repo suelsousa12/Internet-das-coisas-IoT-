@@ -4,7 +4,10 @@
 
 
 ## Materiais utilizados
-
+- 1 Arduino uno
+- 1 Protoboard 400 pontos
+- 1 Tela LCD 16 x2
+- 1 Sensor de distância ultrassônico
 
 ## Explicação do código
 
@@ -58,3 +61,4 @@ void loop()
 }
 
 ## Imagem de montagem do circuito
+
