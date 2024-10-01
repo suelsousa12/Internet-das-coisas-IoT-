@@ -1,7 +1,7 @@
 # Tela LCD com sensor de ditância
 
 ## Introdução
-
+  Este projeto consiste em avisar através de uma mensagem "Mantenha distância" que é mostrada no LCD através de uma detecção de proximidade do sensor no sistema. 
 
 ## Materiais utilizados
 - 1 Arduino uno
