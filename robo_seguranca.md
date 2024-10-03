@@ -1,3 +1,16 @@
+# Robô segurança
+
+## Introdução
+
+
+## Materiais utilizados
+- 1 Arduino uno
+- 1 Protoboard 400 pontos
+- 1 LED vermelho 3.3v
+- 1 resistor de 1K Ohm
+
+## Explicação do código
+
 // C++ code
 
 // Variável do LED
@@ -67,3 +80,6 @@ long sensor(int trigger, int echo){
 }
 
 }
+
+
+## Imagem de montagem do circuito
