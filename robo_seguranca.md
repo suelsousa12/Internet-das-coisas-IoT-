@@ -11,75 +11,69 @@
 
 ## Explicação do código
 
-// C++ code
-
-// Variável do LED
-int ledvermelho = 4;
-// Variável do sensor
-int sensor = 3;
-// Variável para salvar a porta que o servo está
-int servo = 2;
-/* Criando objeto do tipo servo motor para
-usar as funções de controle do equipamento
-(servo motor)*/
+// biblioteca do servo motor
+#include <Servo.h>
+/*criando objeto do tipo Servo Motor
+para poder usar as funções de controle
+do equipamento(servo motor) */
 Servo objetoservo;
+// variavel para salvar a porta que o servo está
+int servo=2;
 
+// variavel para posição do motor
+int posicao =0;
+
+// metodo para captar a distancia das pessoas
+  long leituraDistancia(int triggerPin, int echoPin)
+  {
+    pinMode(triggerPin, OUTPUT);  
+    digitalWrite(triggerPin, LOW);
+    delayMicroseconds(2);
+
+    digitalWrite(triggerPin, HIGH);
+    delayMicroseconds(10); 
+    digitalWrite(triggerPin, LOW);
+    
+    pinMode(echoPin, INPUT); 
+
+    return pulseIn(echoPin, HIGH);
+  }
 
 void setup()
 {
-  // Definindo LEd como saída de sinal
-  pinMode(ledvermelho,OUTPUT);
-  // Definindo sensor como entrada de sinal
-  pinMode(sensor,INPUT);
-  // A inicializando do servo na portadigital 2
+  //incializando o servo na porta digital 2
   objetoservo.attach(servo);
-  // Servo começa na posição 0
-  objetoservo.write(0); 
+  // SERVO COMEÇA NA POSIÇÃO 0
+  objetoservo.write(0);
+  
 }
 
 void loop()
 {
+  //transformando o valor lido em centimetros
+    int cm = 0.01723 * leituraDistancia(4,3);
+  /* SE OBJETO FOR DETECTADO A MENOS DE 50 CM
+  ENTÃO O MOTOR DE PASSO ROTACIONA 90 GRAUS*/
+  if(cm<=50 && posicao>=0 ){
+    // ENTÃO AUMENTE 90° DE POSIÇÃO 
+    posicao+=90;
+   // MANDE O MOTOR PARA A NOVA POSIÇÃO
+    objetoservo.write(posicao);
+   // AGUARDE 1 SEGUNDO PARA A PRÓXIMA LEITURA
+    delay(5000); 
+  }
   
-  // Se o robô se aproximar de algo ou alguém
-  // Calcular a distância em centímetros
-  int distancia = 0.01723 * digitalRead(sensor);
-
-  
-  // Se o robô se aproximar de algo ou alguém a menos de 100cm
-  if(distancia<100){ 
-  	
-    // Ligar o LED vermelho
-    digitalWrite(ledvermelho,HIGH);
-    // Servo rotacionando a 90°
- 	objetoservo.write(90);
- 	delay(500);
-  
-    if(distancia>100){ 
-  }else{
-      //Desligar o LED vermelho
-    digitalWrite(ledvermelho,LOW);
+  if(cm<=50 && posicao==360 ){
+    // ENTÃO DIMINUI 90° DE POSIÇÃO 
+    posicao-=90;
+   // MANDE O MOTOR PARA A NOVA POSIÇÃO
+    objetoservo.write(posicao);
+   // AGUARDE 1 SEGUNDO PARA A PRÓXIMA LEITURA
+    delay(5000); 
   }
   
 }
 
-
-// Sensor
-long sensor(int trigger, int echo){ 
-  // trigger porta de saida
-  pinMode(trigger,OUTPUT);
-  digitalWrite(trigger,LOW);//desligar porta
-  delay(5);// Esperar 5 milisegundos
-  //mandando o sinal
-  digitalWrite(trigger,HIGH);
-  delay(10);// espere 10 milisegundos
-  digitalWrite(trigger,LOW);//desligar porta
-  // echo porta de entrada
-  pinMode(echo,INPUT);//Definir porta como entrada
-  //retorna os dados que a porta recebe
-  return pulseIn(echo,HIGH);
-}
-
-}
-
-
 ## Imagem de montagem do circuito
+
+
