@@ -2,6 +2,7 @@
 
 ## Introdução
 
+O projeto consiste na segurança de uma empresa através de um robô. O robô faz rondas na esmpresa e tem um sensor de distância, um servo motor e um LED vermelho. Quando o robô se aproxima de alguém ou algo à 1 metro ou menos, ele acende o LED vermelho e faz um desvio de 90° no sentido horário ou antihorário, através do servo motor.
 
 ## Materiais utilizados
 - 1 Arduino uno
