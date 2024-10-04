@@ -6,7 +6,7 @@
 ## Materiais utilizados
 - 1 Arduino uno
 - 1 Protoboard 400 pontos
-- 1 piezo
+- 1 Piezo
 
 ## Explicação do código
 
