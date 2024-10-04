@@ -1,13 +1,12 @@
 # Buzzer
 
 # Introdução
-  O projeto consiste em ligar e desligar um LED azul em determinados intervalos de tempo.
+  O projeto consiste em 
 
 ## Materiais utilizados
 - 1 Arduino uno
 - 1 Protoboard 400 pontos
-- 1 LED vermelho 3.3v
-- 1 resistor de 1K Ohm
+- 1 
 
 ## Explicação do código
 
@@ -45,3 +44,4 @@ void loop()
 
 ## Imagem de montagem do circuito
 
+![Buzzer](buzzer.png)
