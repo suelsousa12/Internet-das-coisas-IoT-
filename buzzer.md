@@ -1,12 +1,12 @@
 # Buzzer
 
 # Introdução
-  O projeto consiste em 
+  O projeto consiste em tocar as notas Dó, Ré, Mi e Fá no piezo. Um componenete de sáida de sinal que emite frequência sonora.
 
 ## Materiais utilizados
 - 1 Arduino uno
 - 1 Protoboard 400 pontos
-- 1 
+- 1 piezo
 
 ## Explicação do código
 
