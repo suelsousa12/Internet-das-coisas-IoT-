@@ -1,7 +1,7 @@
 # Buzzer
 
 # Introdução
-  O projeto consiste em tocar a música Imperial March de Star Wars. 
+  O projeto consiste em tocar a música Imperial March de Star Wars através do buzzer piezo. 
 
 ## Materiais utilizados
 - 1 Arduino uno
