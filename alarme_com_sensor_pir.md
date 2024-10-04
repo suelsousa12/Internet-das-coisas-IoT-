@@ -7,8 +7,8 @@
 ## Materiais utilizados
 - 1 Arduino uno
 - 1 Protoboard 400 pontos
-- 1 piezo
-- Sensor PIR
+- 1 Piezo
+- 1 Sensor PIR
 
 ## Explicação do código
 
